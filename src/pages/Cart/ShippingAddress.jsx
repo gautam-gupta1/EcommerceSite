@@ -50,6 +50,7 @@ const ShippingAddress = () => {
     pinCode = "123456",
     email = "email@email.com",
   } =  shippingInfo;
+  
   const shippingDetails = {
     name,
     phoneNumber,
