@@ -1,0 +1,29 @@
+.bookPage{
+    display:flex;
+
+}
+
+.bookImageSection{
+    flex-basis: 18%;
+    padding: 25px;  
+}
+
+.bookDetails{
+    flex-basis: 75%;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+   gap: 10px;
+   
+}
+
+@media (max-width: 700px){
+.bookPage{
+  flex-direction: column;
+ 
+}
+
+.bookImageSection{
+  width: 100px;
+}
+}

@@ -1,0 +1,29 @@
+.checkout{
+    margin: 20px 50px;
+   display:flex;
+   gap: 20px;
+   justify-content: space-around;
+    
+}
+
+.paymentOptions input{
+    margin-top: 20px;
+}
+
+.checkoutCart button{
+ 
+    margin-top: 10px;
+
+}
+
+@media (max-width:800px){
+  .checkout{
+    margin: 20px 10px;
+   flex-direction: column;
+
+  }
+  .paymentOptions{
+    margin-bottom: 30px;
+  }
+}
+

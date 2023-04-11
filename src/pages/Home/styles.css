@@ -1,0 +1,59 @@
+.homePage {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.bookCard {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  row-gap: 10px;
+  /* text-align: center; */
+  /* -webkit-box-shadow: 10px 7px 31px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 7px 31px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 7px 31px 0px rgba(0, 0, 0, 0.75); */
+}
+.bookCardDetails {
+  
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+}
+.bookImage {
+  width: 100%;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bookCardTitle{
+  
+  font-weight: bold;
+  margin: 0;
+  overflow-wrap: break-word;
+ 
+}
+.bookCardBuyButton{
+  
+}
+.header {
+  display: flex;
+  background-color: antiquewhite;
+  justify-content: space-between;
+}
+
+.title {
+  margin-left: 20px;
+}
+.navigationBar {
+  margin-right: 100px;
+}
+
+.navEle {
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+

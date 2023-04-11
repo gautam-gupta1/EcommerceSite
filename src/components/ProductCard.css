@@ -1,0 +1,33 @@
+.productCard{
+    padding: 10px;
+     display:flex;
+     
+}
+
+.productCardImage{
+  
+   height : 100px;
+    
+
+}
+
+.productCardImage > img{
+    height: 100%;
+}
+
+.productCardDetails{
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width:332px){
+
+    .productCard{
+        flex-direction: column;
+    }
+    .productCardImage{
+        text-align: center;
+    }
+}
